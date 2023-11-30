@@ -1,0 +1,11 @@
+.hide {
+    display: none;
+}
+
+  .tweet-card {
+    transition: background-color 4s ease-out;
+  }
+  
+  .tweet-card.new {
+    background-color: rgb(223, 200, 235);
+  }

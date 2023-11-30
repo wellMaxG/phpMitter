@@ -1,6 +1,6 @@
 <?php
 
-$query = "SELECT * FROM tweets";
+$query = "SELECT * FROM tweets ORDER BY date DESC";
 
 $result = mysqli_query($link, $query);
 
